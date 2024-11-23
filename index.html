@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+    <title>Fatima Gasperini</title>
+    <link rel="icon" href="./img/LOGO.png" type="image/x-icon" sizes="64x64">
+</head>
+<body>
+    <header>
+            <div class="content">
+                <div class="logo">
+                    <img src="./img/LOGO.png" alt="LOGO">
+                    <h3>Fatima Gasperini</h3>
+                </div>
+                <ul class="list-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobrenos">Sobre ela</a></li>
+                    <li><a href="#cardapio">Fotos</a></li>
+                    <li><a href="https://www.instagram.com/from.fath/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+
+                </ul>
+
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      const menuItems = document.querySelectorAll('.list-menu li a');
+                      menuItems.forEach(item => {
+                        item.addEventListener('click', () => {
+                          document.querySelector('.content').classList.remove('on');
+                        });
+                      });
+                    });
+                </script>
+
+            </div>
+        
+    </header>
+
+    <section class="first-section" id="home">
+        
+        <div class="conteudo-principal">
+            <h1>Oi Fath</h1>
+            <h2>Você está bem ?</h2>
+            <p>Espero que goste desse sitezinho</p>
+            <p>Quero que saiba o quanto eu admiro sua força e determinação.</p>
+            <p>Seu carinho e dedicação são inspiradoras.</p>     
+        </div>
+           
+    </section>    
+
+    <section class="sobre-nos" id="sobrenos"> 
+        <div class="main">
+            <div class="contentsobre">
+                <h2>Sobre ela</h2>
+                <p>Ela é a definição de dedicação e carinho em forma de gente. Sempre trabalha com seriedade e empenho, mas sem precisar de holofotes, ela prefere ficar nos bastidores, onde brilha de uma maneira única. 
+                    Sua doçura transparece nos pequenos gestos e na forma atenciosa como cuida dos outros, fazendo com que todos ao seu redor se sintam especiais.
+                </p>
+            </div>     
+            <div class="img-cozinha">
+                <img src="./img/cozinha.jpg" alt="">
+            </div>
+        </div>    
+    </section>
+
+    <section class="cardapio" id="cardapio">
+        <h2>Fotos</h2>
+
+            <div class="itens-cardapio">
+                <div class="frango">
+                    <img src="./img/MARGUERITA.png" alt="frango">
+                    <div class="info">
+                        <h3>Fath e Camera</h3>
+                        <p>Seu olhar por trás da câmera revela um mistério encantador, dito isso, venha tirar fotos minhas com a camera profissional, preciso deixar de ser low profile.</p>
+                    </div>   
+                </div>
+                <div class="calabresa">
+                    <img src="./img/SAN PAOLO.png" alt="calabresa">
+                    <div class="info">
+                        <h3>Fath e o Sticker</h3>
+                        <p>Essa foto parece ser fofa mais seria melhor sem o sticker, estou na busca da foto sem sticker, favor me contatar.</p>
+                    </div> 
+                </div>    
+                <div class="QUATRO FORMAGGI">
+                    <img src="./img/QUATRO FORMAGGI.png" alt="QUATRO FORMAGGI">
+                    <div class="info">
+                        <h3>Fath e a Foto</h3>
+                        <p>Ela não gosta dessa foto mas eu acho ela fofa, tinha que estar nessa lista de fotos.</p>
+                    </div> 
+                </div>
+                <div class="ALICE">
+                    <img src="./img/ALICE.png" alt="ALICE">
+                    <div class="info">
+                        <h3>Fath Seduzindo</h3>
+                        <p>Olhar penetrante tentando seduzir. Hmmm.</p>
+                    </div> 
+                </div>      
+            </div>
+    </section>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
